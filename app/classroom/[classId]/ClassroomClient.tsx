@@ -45,7 +45,7 @@ export default function ClassroomClient() {
     if (!user || !classroom) return;
 
     try {
-      await joinClassroom(classId as string, user.uid);
+      await joinClassroom(classId as string, user.id);
       
       if (classroom.googleMeetLink) {
         window.open(classroom.googleMeetLink, '_blank');
@@ -73,7 +73,7 @@ export default function ClassroomClient() {
     if (!user || !classroom) return;
 
     try {
-      await leaveClassroom(classId as string, user.uid);
+      await leaveClassroom(classId as string, user.id);
       toast({
         title: 'Success',
         description: 'You have left the class.',

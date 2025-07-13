@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         'slim-joe': ['var(--font-slim-joe)', 'cursive'],
+        'big-john': ['var(--font-big-john)', 'sans-serif'],
         'noto-arabic': ['var(--font-noto-sans-arabic)', 'sans-serif'],
       },
       backgroundImage: {

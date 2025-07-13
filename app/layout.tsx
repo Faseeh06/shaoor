@@ -11,6 +11,12 @@ const slimJoe = localFont({
   variable: '--font-slim-joe',
 });
 
+const bigJohn = localFont({
+  src: '../public/font/BIG JOHN.otf',
+  display: 'swap',
+  variable: '--font-big-john',
+});
+
 const notoSansArabic = Noto_Sans_Arabic({
   subsets: ['arabic'],
   display: 'swap',
@@ -29,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${slimJoe.className} ${notoSansArabic.variable}`}>
+      <body className={`${slimJoe.className} ${bigJohn.variable} ${notoSansArabic.variable}`}>
         <AuthProvider>
           {children}
           <Toaster />

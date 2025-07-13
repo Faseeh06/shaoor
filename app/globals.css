@@ -79,6 +79,47 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Custom typography with less bold headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-big-john), sans-serif;
+    font-weight: 500; /* Medium weight - less bold */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Body text with Slim Joe font */
+  p, span, div, li, a {
+    font-family: var(--font-slim-joe), cursive;
+  }
 }
 
 /* Custom animations */

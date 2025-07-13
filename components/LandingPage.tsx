@@ -31,7 +31,7 @@ export default function LandingPage() {
                 className="object-contain"
               />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900 font-slim-joe tracking-wide">Shaoor</h1>
+                <h1 className="text-2xl font-bold text-gray-900 font-big-john tracking-wide">Shaoor</h1>
                 <p className="text-base font-bold font-noto-arabic" style={{ color: '#2C3838' }}>چلو ساتھ پڑھتے ہیں</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function LandingPage() {
               <span>Connecting Hearts Through Education</span>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight font-slim-joe">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight font-big-john">
               Virtual Classrooms for 
               <span style={{ color: '#2C3838' }}> Those</span> <span className="text-gray-900">Who</span> 
               <span style={{ color: '#2C3838' }}> Need It</span>
@@ -163,7 +163,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>
+              <h2 className="text-4xl font-bold mb-4 font-big-john" style={{ color: '#F6F4F0' }}>
                 Who We Are
               </h2>
               <p className="text-xl" style={{ color: '#F6F4F0' }}>
@@ -173,7 +173,7 @@ export default function LandingPage() {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>The Challenge</h3>
+                <h3 className="text-2xl font-bold mb-4 font-big-john" style={{ color: '#F6F4F0' }}>The Challenge</h3>
                 <p className="mb-6 leading-relaxed" style={{ color: '#F6F4F0' }}>
                   Community service clubs and student volunteers typically visit orphanages and small schools 
                   only 1-2 times per month. Many remote orphanages and rural schools, especially those in 
@@ -181,7 +181,7 @@ export default function LandingPage() {
                   geographical constraints.
                 </p>
                 
-                <h3 className="text-2xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>Our Solution</h3>
+                <h3 className="text-2xl font-bold mb-4 font-big-john" style={{ color: '#F6F4F0' }}>Our Solution</h3>
                 <p className="leading-relaxed" style={{ color: '#F6F4F0' }}>
                   Shaoor creates virtual classrooms that connect orphanages and rural schools (with special 
                   focus on female-only and remote institutions) with student volunteers from around the world. 
@@ -225,7 +225,7 @@ export default function LandingPage() {
       <section className="py-20" style={{ backgroundColor: '#F6F4F0' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-big-john">
               What We Do
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -240,7 +240,7 @@ export default function LandingPage() {
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <School className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="font-slim-joe">Connect Institutions</CardTitle>
+                <CardTitle className="font-big-john">Connect Institutions</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
@@ -255,7 +255,7 @@ export default function LandingPage() {
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <Users className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="font-slim-joe">Recruit Volunteers</CardTitle>
+                <CardTitle className="font-big-john">Recruit Volunteers</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
@@ -270,7 +270,7 @@ export default function LandingPage() {
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <Laptop className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="font-slim-joe">Enable Virtual Learning</CardTitle>
+                <CardTitle className="font-big-john">Enable Virtual Learning</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
@@ -287,7 +287,7 @@ export default function LandingPage() {
       <section className="py-20" style={{ backgroundColor: '#2C3838' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>
+            <h2 className="text-4xl font-bold mb-4 font-big-john" style={{ color: '#F6F4F0' }}>
               How It Works
             </h2>
             <p className="text-xl" style={{ color: '#F6F4F0' }}>
@@ -302,7 +302,7 @@ export default function LandingPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Register & Verify</h3>
+                  <h3 className="text-xl font-bold mb-2 font-big-john" style={{ color: '#F6F4F0' }}>Register & Verify</h3>
                   <p style={{ color: '#F6F4F0' }}>
                     Volunteers sign up through their community service clubs or universities. 
                     Institutions register to join our network of virtual classrooms.
@@ -315,7 +315,7 @@ export default function LandingPage() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Create Virtual Classrooms</h3>
+                  <h3 className="text-xl font-bold mb-2 font-big-john" style={{ color: '#F6F4F0' }}>Create Virtual Classrooms</h3>
                   <p style={{ color: '#F6F4F0' }}>
                     We set up dedicated virtual classrooms for each partnered institution, 
                     equipped with all necessary tools for interactive learning.
@@ -328,7 +328,7 @@ export default function LandingPage() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Schedule & Teach</h3>
+                  <h3 className="text-xl font-bold mb-2 font-big-john" style={{ color: '#F6F4F0' }}>Schedule & Teach</h3>
                   <p style={{ color: '#F6F4F0' }}>
                     Volunteers schedule classes and teach children across multiple institutions simultaneously, 
                     providing regular educational support beyond traditional monthly visits.
@@ -341,7 +341,7 @@ export default function LandingPage() {
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Track Impact</h3>
+                  <h3 className="text-xl font-bold mb-2 font-big-john" style={{ color: '#F6F4F0' }}>Track Impact</h3>
                   <p style={{ color: '#F6F4F0' }}>
                     Monitor student progress, attendance, and learning outcomes to ensure 
                     every child receives quality education and meaningful interaction.
@@ -357,7 +357,7 @@ export default function LandingPage() {
       <section className="py-20" style={{ backgroundColor: '#F6F4F0' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-big-john">
               Our Impact
             </h2>
             <p className="text-xl text-gray-600">
@@ -412,7 +412,7 @@ export default function LandingPage() {
       {/* CTA Section */}
       <section className="py-20" style={{ backgroundColor: '#2C3838' }}>
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-4 font-slim-joe">
+          <h2 className="text-4xl font-bold text-white mb-4 font-big-john">
             Ready to Make a Difference?
           </h2>
                       <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: '#F6F4F0' }}>
@@ -483,7 +483,7 @@ export default function LandingPage() {
                     className="object-contain"
                   />
                 </div>
-                <span className="text-xl font-bold font-slim-joe">Shaoor</span>
+                <span className="text-xl font-bold font-big-john">Shaoor</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Connecting student volunteers with orphanages and rural schools through virtual classrooms, 
@@ -514,7 +514,7 @@ export default function LandingPage() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4 font-slim-joe">For Volunteers</h4>
+              <h4 className="font-semibold mb-4 font-big-john">For Volunteers</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>How to Volunteer</a></li>
                 <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Community Service Clubs</a></li>
@@ -524,7 +524,7 @@ export default function LandingPage() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4 font-slim-joe">For Institutions</h4>
+              <h4 className="font-semibold mb-4 font-big-john">For Institutions</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Register Your Institution</a></li>
                 <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Virtual Classroom Setup</a></li>
@@ -534,7 +534,7 @@ export default function LandingPage() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4 font-slim-joe">Support & Legal</h4>
+              <h4 className="font-semibold mb-4 font-big-john">Support & Legal</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Help Center</a></li>
                 <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Contact Us</a></li>
