@@ -31,8 +31,8 @@ export default function LandingPage() {
                 className="object-contain"
               />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900 tracking-wide">Shaoor</h1>
-                <p className="text-base font-bold text-green-600">چلو ساتھ پڑھتے ہیں</p>
+                <h1 className="text-2xl font-bold text-gray-900 font-slim-joe tracking-wide">Shaoor</h1>
+                <p className="text-base font-bold text-green-600 font-noto-arabic">چلو ساتھ پڑھتے ہیں</p>
               </div>
             </div>
             
@@ -64,7 +64,7 @@ export default function LandingPage() {
               <span>Connecting Hearts Through Education</span>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight font-slim-joe">
               Virtual Classrooms for 
               <span className="text-green-500"> Those</span> <span className="text-gray-900">Who</span> 
               <span className="text-green-400"> Need It</span>
@@ -120,7 +120,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
                 Who We Are
               </h2>
               <p className="text-xl text-gray-600">
@@ -130,7 +130,7 @@ export default function LandingPage() {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">The Challenge</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-slim-joe">The Challenge</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Community service clubs and student volunteers typically visit orphanages and small schools 
                   only 1-2 times per month. Many remote orphanages and rural schools, especially those in 
@@ -138,7 +138,7 @@ export default function LandingPage() {
                   geographical constraints.
                 </p>
                 
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Solution</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-slim-joe">Our Solution</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Shaoor creates virtual classrooms that connect orphanages and rural schools (with special 
                   focus on female-only and remote institutions) with student volunteers from around the world. 
@@ -182,9 +182,9 @@ export default function LandingPage() {
       <section className="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-                      <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            What We Do
-          </h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
+              What We Do
+            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We create virtual bridges between student volunteers and children in need, 
               making quality education accessible regardless of location
@@ -197,7 +197,7 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-green-400 rounded-full flex items-center justify-center mx-auto mb-4">
                   <School className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle>Connect Institutions</CardTitle>
+                <CardTitle className="font-slim-joe">Connect Institutions</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
@@ -212,7 +212,7 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-green-300 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle>Recruit Volunteers</CardTitle>
+                <CardTitle className="font-slim-joe">Recruit Volunteers</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
@@ -227,7 +227,7 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Laptop className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle>Enable Virtual Learning</CardTitle>
+                <CardTitle className="font-slim-joe">Enable Virtual Learning</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-center">
@@ -244,9 +244,9 @@ export default function LandingPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-                      <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            How It Works
-          </h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
+              How It Works
+            </h2>
             <p className="text-xl text-gray-600">
               Simple steps to make a lasting impact
             </p>
@@ -259,7 +259,7 @@ export default function LandingPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Register & Verify</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 font-slim-joe">Register & Verify</h3>
                   <p className="text-gray-600">
                     Volunteers sign up through their community service clubs or universities. 
                     Institutions register to join our network of virtual classrooms.
@@ -272,7 +272,7 @@ export default function LandingPage() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Create Virtual Classrooms</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 font-slim-joe">Create Virtual Classrooms</h3>
                   <p className="text-gray-600">
                     We set up dedicated virtual classrooms for each partnered institution, 
                     equipped with all necessary tools for interactive learning.
@@ -285,7 +285,7 @@ export default function LandingPage() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Schedule & Teach</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 font-slim-joe">Schedule & Teach</h3>
                   <p className="text-gray-600">
                     Volunteers schedule classes and teach children across multiple institutions simultaneously, 
                     providing regular educational support beyond traditional monthly visits.
@@ -298,7 +298,7 @@ export default function LandingPage() {
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Track Impact</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 font-slim-joe">Track Impact</h3>
                   <p className="text-gray-600">
                     Monitor student progress, attendance, and learning outcomes to ensure 
                     every child receives quality education and meaningful interaction.
@@ -314,9 +314,9 @@ export default function LandingPage() {
       <section className="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-                      <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our Impact
-          </h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
+              Our Impact
+            </h2>
             <p className="text-xl text-gray-600">
               Transforming lives through accessible education
             </p>
@@ -369,7 +369,7 @@ export default function LandingPage() {
       {/* CTA Section */}
       <section className="py-20 bg-green-500">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">
+          <h2 className="text-4xl font-bold text-white mb-4 font-slim-joe">
             Ready to Make a Difference?
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
@@ -407,7 +407,7 @@ export default function LandingPage() {
                 <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
                   <BookOpen className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">Shaoor</span>
+                <span className="text-xl font-bold font-slim-joe">Shaoor</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Connecting student volunteers with orphanages and rural schools through virtual classrooms, 
@@ -427,7 +427,7 @@ export default function LandingPage() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">For Volunteers</h4>
+              <h4 className="font-semibold mb-4 font-slim-joe">For Volunteers</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-green-400 transition-colors">How to Volunteer</a></li>
                 <li><a href="#" className="hover:text-green-400 transition-colors">Community Service Clubs</a></li>
@@ -437,7 +437,7 @@ export default function LandingPage() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">For Institutions</h4>
+              <h4 className="font-semibold mb-4 font-slim-joe">For Institutions</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-green-400 transition-colors">Register Your Institution</a></li>
                 <li><a href="#" className="hover:text-green-400 transition-colors">Virtual Classroom Setup</a></li>
@@ -447,7 +447,7 @@ export default function LandingPage() {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Support & Legal</h4>
+              <h4 className="font-semibold mb-4 font-slim-joe">Support & Legal</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-green-400 transition-colors">Help Center</a></li>
                 <li><a href="#" className="hover:text-green-400 transition-colors">Contact Us</a></li>
