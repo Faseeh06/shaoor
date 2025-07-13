@@ -2,7 +2,6 @@
 
 import { createContext, useContext, useEffect, useState } from 'react';
 import { 
-  User,
   signInWithPopup,
   GoogleAuthProvider,
   signInWithEmailAndPassword,
@@ -14,6 +13,7 @@ import {
 import { doc, setDoc, getDoc } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
 import { useRouter } from 'next/navigation';
+import type { User } from '@/types/auth';
 
 interface AuthContextType {
   user: User | null;

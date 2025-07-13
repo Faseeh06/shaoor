@@ -17,7 +17,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#f5f5dc' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#F6F4F0' }}>
       {/* Header */}
       <header className="relative z-10 bg-transparent">
         <div className="w-full px-6 py-3">
@@ -32,7 +32,7 @@ export default function LandingPage() {
               />
               <div>
                 <h1 className="text-2xl font-bold text-gray-900 font-slim-joe tracking-wide">Shaoor</h1>
-                <p className="text-base font-bold font-noto-arabic" style={{ color: '#4f6642' }}>چلو ساتھ پڑھتے ہیں</p>
+                <p className="text-base font-bold font-noto-arabic" style={{ color: '#2C3838' }}>چلو ساتھ پڑھتے ہیں</p>
               </div>
             </div>
             
@@ -42,12 +42,12 @@ export default function LandingPage() {
                 onClick={() => openAuth('login')}
                 className="text-gray-700 px-6 py-2 font-medium transition-all duration-200"
                 style={{ 
-                  '--hover-bg': '#f5f5dc',
-                  '--hover-text': '#4f6642'
+                  '--hover-bg': '#F6F4F0',
+                  '--hover-text': '#2C3838'
                 } as any}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#f5f5dc';
-                  e.currentTarget.style.color = '#4f6642';
+                  e.currentTarget.style.backgroundColor = '#F6F4F0';
+                  e.currentTarget.style.color = '#2C3838';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.backgroundColor = 'transparent';
@@ -60,14 +60,14 @@ export default function LandingPage() {
                 onClick={() => openAuth('register')}
                 className="text-white px-6 py-2 font-medium shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
                 style={{ 
-                  backgroundColor: '#4f6642',
-                  '--hover-bg': '#3d5235'
+                  backgroundColor: '#2C3838',
+                  '--hover-bg': '#1f2a2a'
                 } as any}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#3d5235';
+                  e.currentTarget.style.backgroundColor = '#1f2a2a';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = '#4f6642';
+                  e.currentTarget.style.backgroundColor = '#2C3838';
                 }}
               >
                 Get Started
@@ -78,18 +78,18 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: '#f5f5dc' }}>
+      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: '#F6F4F0' }}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full text-sm font-medium mb-6" style={{ backgroundColor: '#4f6642', color: '#f5f5dc', opacity: 0.9 }}>
+            <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full text-sm font-medium mb-6" style={{ backgroundColor: '#2C3838', color: '#F6F4F0', opacity: 0.9 }}>
               <Heart className="w-4 h-4" />
               <span>Connecting Hearts Through Education</span>
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight font-slim-joe">
               Virtual Classrooms for 
-              <span style={{ color: '#4f6642' }}> Those</span> <span className="text-gray-900">Who</span> 
-              <span style={{ color: '#4f6642' }}> Need It</span>
+              <span style={{ color: '#2C3838' }}> Those</span> <span className="text-gray-900">Who</span> 
+              <span style={{ color: '#2C3838' }}> Need It</span>
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
@@ -103,12 +103,12 @@ export default function LandingPage() {
                 size="lg" 
                 onClick={() => openAuth('register')}
                 className="text-white text-lg px-8 py-6 transition-all duration-200"
-                style={{ backgroundColor: '#4f6642' }}
+                style={{ backgroundColor: '#2C3838' }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#3d5235';
+                  e.currentTarget.style.backgroundColor = '#1f2a2a';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = '#4f6642';
+                  e.currentTarget.style.backgroundColor = '#2C3838';
                 }}
               >
                 Start Volunteering Today
@@ -121,18 +121,18 @@ export default function LandingPage() {
                 onClick={() => openAuth('register')}
                 className="text-lg px-8 py-6 border-2 transition-all duration-200"
                 style={{ 
-                  borderColor: '#4f6642',
-                  color: '#4f6642'
+                  borderColor: '#2C3838',
+                  color: '#2C3838'
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#f5f5dc';
-                  e.currentTarget.style.color = '#4f6642';
-                  e.currentTarget.style.borderColor = '#4f6642';
+                  e.currentTarget.style.backgroundColor = '#F6F4F0';
+                  e.currentTarget.style.color = '#2C3838';
+                  e.currentTarget.style.borderColor = '#2C3838';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.backgroundColor = 'transparent';
-                  e.currentTarget.style.color = '#4f6642';
-                  e.currentTarget.style.borderColor = '#4f6642';
+                  e.currentTarget.style.color = '#2C3838';
+                  e.currentTarget.style.borderColor = '#2C3838';
                 }}
               >
                 <School className="w-5 h-5 mr-2" />
@@ -159,30 +159,30 @@ export default function LandingPage() {
       </section>
 
       {/* Who We Are Section */}
-      <section className="py-20" style={{ backgroundColor: '#4f6642' }}>
+      <section className="py-20" style={{ backgroundColor: '#2C3838' }}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4 font-slim-joe" style={{ color: '#f5f5dc' }}>
+              <h2 className="text-4xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>
                 Who We Are
               </h2>
-              <p className="text-xl" style={{ color: '#f5f5dc' }}>
+              <p className="text-xl" style={{ color: '#F6F4F0' }}>
                 Bridging the gap between willing hearts and eager minds
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-bold mb-4 font-slim-joe" style={{ color: '#f5f5dc' }}>The Challenge</h3>
-                <p className="mb-6 leading-relaxed" style={{ color: '#f5f5dc' }}>
+                <h3 className="text-2xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>The Challenge</h3>
+                <p className="mb-6 leading-relaxed" style={{ color: '#F6F4F0' }}>
                   Community service clubs and student volunteers typically visit orphanages and small schools 
                   only 1-2 times per month. Many remote orphanages and rural schools, especially those in 
                   far-away locations, struggle to access these valuable educational opportunities due to 
                   geographical constraints.
                 </p>
                 
-                <h3 className="text-2xl font-bold mb-4 font-slim-joe" style={{ color: '#f5f5dc' }}>Our Solution</h3>
-                <p className="leading-relaxed" style={{ color: '#f5f5dc' }}>
+                <h3 className="text-2xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>Our Solution</h3>
+                <p className="leading-relaxed" style={{ color: '#F6F4F0' }}>
                   Shaoor creates virtual classrooms that connect orphanages and rural schools (with special 
                   focus on female-only and remote institutions) with student volunteers from around the world. 
                   Through our platform, volunteers can teach and interact with children regularly, 
@@ -194,22 +194,22 @@ export default function LandingPage() {
                 <div className="rounded-2xl p-8" style={{ background: 'linear-gradient(to bottom right, rgba(79, 102, 66, 0.15), rgba(79, 102, 66, 0.25))' }}>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-white rounded-lg p-4 text-center shadow-sm">
-                      <MapPin className="w-8 h-8 mx-auto mb-2" style={{ color: '#4f6642' }} />
+                      <MapPin className="w-8 h-8 mx-auto mb-2" style={{ color: '#2C3838' }} />
                       <div className="font-semibold text-gray-900">Remote Access</div>
                       <div className="text-sm text-gray-600">Reach any location</div>
                     </div>
                     <div className="bg-white rounded-lg p-4 text-center shadow-sm">
-                      <Clock className="w-8 h-8 mx-auto mb-2" style={{ color: '#4f6642' }} />
+                      <Clock className="w-8 h-8 mx-auto mb-2" style={{ color: '#2C3838' }} />
                       <div className="font-semibold text-gray-900">Regular Classes</div>
                       <div className="text-sm text-gray-600">Beyond monthly visits</div>
                     </div>
                     <div className="bg-white rounded-lg p-4 text-center shadow-sm">
-                      <Globe className="w-8 h-8 mx-auto mb-2" style={{ color: '#4f6642' }} />
+                      <Globe className="w-8 h-8 mx-auto mb-2" style={{ color: '#2C3838' }} />
                       <div className="font-semibold text-gray-900">Global Volunteers</div>
                       <div className="text-sm text-gray-600">Worldwide participation</div>
                     </div>
                     <div className="bg-white rounded-lg p-4 text-center shadow-sm">
-                      <Target className="w-8 h-8 mx-auto mb-2" style={{ color: '#4f6642' }} />
+                      <Target className="w-8 h-8 mx-auto mb-2" style={{ color: '#2C3838' }} />
                       <div className="font-semibold text-gray-900">Focused Impact</div>
                       <div className="text-sm text-gray-600">Female & rural priority</div>
                     </div>
@@ -222,7 +222,7 @@ export default function LandingPage() {
       </section>
 
       {/* What We Do Section */}
-      <section className="py-20" style={{ backgroundColor: '#f5f5dc' }}>
+      <section className="py-20" style={{ backgroundColor: '#F6F4F0' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
@@ -237,7 +237,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#4f6642' }}>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <School className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="font-slim-joe">Connect Institutions</CardTitle>
@@ -252,7 +252,7 @@ export default function LandingPage() {
 
             <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#4f6642' }}>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <Users className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="font-slim-joe">Recruit Volunteers</CardTitle>
@@ -267,7 +267,7 @@ export default function LandingPage() {
 
             <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#4f6642' }}>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <Laptop className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="font-slim-joe">Enable Virtual Learning</CardTitle>
@@ -284,13 +284,13 @@ export default function LandingPage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20" style={{ backgroundColor: '#4f6642' }}>
+      <section className="py-20" style={{ backgroundColor: '#2C3838' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 font-slim-joe" style={{ color: '#f5f5dc' }}>
+            <h2 className="text-4xl font-bold mb-4 font-slim-joe" style={{ color: '#F6F4F0' }}>
               How It Works
             </h2>
-            <p className="text-xl" style={{ color: '#f5f5dc' }}>
+            <p className="text-xl" style={{ color: '#F6F4F0' }}>
               Simple steps to make a lasting impact
             </p>
           </div>
@@ -298,12 +298,12 @@ export default function LandingPage() {
           <div className="max-w-4xl mx-auto">
             <div className="space-y-12">
               <div className="flex items-center gap-8">
-                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#4f6642' }}>
+                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#2C3838' }}>
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#f5f5dc' }}>Register & Verify</h3>
-                  <p style={{ color: '#f5f5dc' }}>
+                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Register & Verify</h3>
+                  <p style={{ color: '#F6F4F0' }}>
                     Volunteers sign up through their community service clubs or universities. 
                     Institutions register to join our network of virtual classrooms.
                   </p>
@@ -311,12 +311,12 @@ export default function LandingPage() {
               </div>
 
               <div className="flex items-center gap-8">
-                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#4f6642' }}>
+                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#2C3838' }}>
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#f5f5dc' }}>Create Virtual Classrooms</h3>
-                  <p style={{ color: '#f5f5dc' }}>
+                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Create Virtual Classrooms</h3>
+                  <p style={{ color: '#F6F4F0' }}>
                     We set up dedicated virtual classrooms for each partnered institution, 
                     equipped with all necessary tools for interactive learning.
                   </p>
@@ -324,12 +324,12 @@ export default function LandingPage() {
               </div>
 
               <div className="flex items-center gap-8">
-                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#4f6642' }}>
+                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#2C3838' }}>
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#f5f5dc' }}>Schedule & Teach</h3>
-                  <p style={{ color: '#f5f5dc' }}>
+                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Schedule & Teach</h3>
+                  <p style={{ color: '#F6F4F0' }}>
                     Volunteers schedule classes and teach children across multiple institutions simultaneously, 
                     providing regular educational support beyond traditional monthly visits.
                   </p>
@@ -337,12 +337,12 @@ export default function LandingPage() {
               </div>
 
               <div className="flex items-center gap-8">
-                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#4f6642' }}>
+                <div className="flex-shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl" style={{ backgroundColor: '#2C3838' }}>
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#f5f5dc' }}>Track Impact</h3>
-                  <p style={{ color: '#f5f5dc' }}>
+                  <h3 className="text-xl font-bold mb-2 font-slim-joe" style={{ color: '#F6F4F0' }}>Track Impact</h3>
+                  <p style={{ color: '#F6F4F0' }}>
                     Monitor student progress, attendance, and learning outcomes to ensure 
                     every child receives quality education and meaningful interaction.
                   </p>
@@ -354,7 +354,7 @@ export default function LandingPage() {
       </section>
 
       {/* Impact Section */}
-      <section className="py-20" style={{ backgroundColor: '#f5f5dc' }}>
+      <section className="py-20" style={{ backgroundColor: '#F6F4F0' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4 font-slim-joe">
@@ -368,7 +368,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="text-center border-0 shadow-lg">
               <CardContent className="p-6">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#4f6642' }}>
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <Globe className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900 mb-2">15+</div>
@@ -378,7 +378,7 @@ export default function LandingPage() {
 
             <Card className="text-center border-0 shadow-lg">
               <CardContent className="p-6">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#4f6642' }}>
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <School className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900 mb-2">75%</div>
@@ -388,7 +388,7 @@ export default function LandingPage() {
 
             <Card className="text-center border-0 shadow-lg">
               <CardContent className="p-6">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#4f6642' }}>
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#2C3838' }}>
                   <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900 mb-2">5x</div>
@@ -410,12 +410,12 @@ export default function LandingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#4f6642' }}>
+      <section className="py-20" style={{ backgroundColor: '#2C3838' }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-white mb-4 font-slim-joe">
             Ready to Make a Difference?
           </h2>
-                      <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: '#f5f5dc' }}>
+                      <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: '#F6F4F0' }}>
             Join our community of dedicated volunteers and help us bring quality education 
             to children who need it most, regardless of where they are in the world.
           </p>
@@ -426,16 +426,16 @@ export default function LandingPage() {
               onClick={() => openAuth('register')}
               className="text-lg px-8 py-6 transition-all duration-200"
               style={{ 
-                backgroundColor: '#f5f5dc',
-                color: '#4f6642'
+                backgroundColor: '#F6F4F0',
+                color: '#2C3838'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#f0f0d0';
-                e.currentTarget.style.color = '#4f6642';
+                e.currentTarget.style.backgroundColor = '#F0F0D0';
+                e.currentTarget.style.color = '#2C3838';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = '#f5f5dc';
-                e.currentTarget.style.color = '#4f6642';
+                e.currentTarget.style.backgroundColor = '#F6F4F0';
+                e.currentTarget.style.color = '#2C3838';
               }}
             >
               Become a Volunteer
@@ -447,19 +447,19 @@ export default function LandingPage() {
               onClick={() => openAuth('register')}
               className="text-lg px-8 py-6 border-2 transition-all duration-200"
               style={{ 
-                backgroundColor: '#4f6642',
-                color: '#f5f5dc',
-                borderColor: '#f5f5dc'
+                backgroundColor: '#2C3838',
+                color: '#F6F4F0',
+                borderColor: '#F6F4F0'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#f5f5dc';
-                e.currentTarget.style.color = '#4f6642';
-                e.currentTarget.style.borderColor = '#f5f5dc';
+                e.currentTarget.style.backgroundColor = '#F6F4F0';
+                e.currentTarget.style.color = '#2C3838';
+                e.currentTarget.style.borderColor = '#F6F4F0';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = '#4f6642';
-                e.currentTarget.style.color = '#f5f5dc';
-                e.currentTarget.style.borderColor = '#f5f5dc';
+                e.currentTarget.style.backgroundColor = '#2C3838';
+                e.currentTarget.style.color = '#F6F4F0';
+                e.currentTarget.style.borderColor = '#F6F4F0';
               }}
             >
               Partner With Us
@@ -469,12 +469,12 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="text-white py-12" style={{ backgroundColor: '#4f6642' }}>
+      <footer className="text-white py-12" style={{ backgroundColor: '#2C3838' }}>
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#f5f5dc' }}>
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#F6F4F0' }}>
                   <Image 
                     src="/images/shaoor_black.png" 
                     alt="Shaoor Logo" 
@@ -491,12 +491,12 @@ export default function LandingPage() {
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center transition-colors cursor-pointer" 
-                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f5f5dc'} 
+                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#F6F4F0'} 
                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#374151'}>
                   <Facebook className="w-4 h-4 text-white" />
                 </a>
                 <a href="#" className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center transition-colors cursor-pointer"
-                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f5f5dc'} 
+                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#F6F4F0'} 
                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#374151'}>
                   <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
@@ -506,7 +506,7 @@ export default function LandingPage() {
                   </svg>
                 </a>
                 <a href="#" className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center transition-colors cursor-pointer"
-                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f5f5dc'} 
+                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#F6F4F0'} 
                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#374151'}>
                   <Instagram className="w-4 h-4 text-white" />
                 </a>
@@ -516,30 +516,30 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold mb-4 font-slim-joe">For Volunteers</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>How to Volunteer</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Community Service Clubs</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Teaching Resources</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Volunteer Guidelines</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>How to Volunteer</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Community Service Clubs</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Teaching Resources</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Volunteer Guidelines</a></li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-semibold mb-4 font-slim-joe">For Institutions</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Register Your Institution</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Virtual Classroom Setup</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Technical Requirements</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Success Stories</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Register Your Institution</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Virtual Classroom Setup</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Technical Requirements</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Success Stories</a></li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-semibold mb-4 font-slim-joe">Support & Legal</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Help Center</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Contact Us</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Privacy Policy</a></li>
-                <li><a href="#" className="transition-colors" style={{ color: '#f5f5dc' }} onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'} onMouseLeave={(e) => e.currentTarget.style.color = '#f5f5dc'}>Terms of Service</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Help Center</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Contact Us</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Privacy Policy</a></li>
+                <li><a href="#" className="transition-colors" style={{ color: '#F6F4F0' }} onMouseEnter={(e) => e.currentTarget.style.color = '#FFFFFF'} onMouseLeave={(e) => e.currentTarget.style.color = '#F6F4F0'}>Terms of Service</a></li>
               </ul>
             </div>
           </div>
