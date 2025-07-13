@@ -293,7 +293,7 @@ export default function VolunteerDashboard() {
               <CardHeader className="flex flex-row items-center justify-between">
                 <div>
                   <CardTitle className="font-slim-joe">Resource Library</CardTitle>
-                  <CardDescription>Educational materials you've shared</CardDescription>
+                  <CardDescription>Educational materials you&apos;ve shared</CardDescription>
                 </div>
                 <Button variant="outline">
                   <Plus className="w-4 h-4 mr-2" />
