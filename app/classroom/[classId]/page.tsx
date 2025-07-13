@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 export default function ClassroomPage({ params }: { params: { classId: string } }) {
   return (
     <Suspense fallback={<LoadingSpinner />}>
-      <ClassroomClient classId={params.classId} />
+      <ClassroomClient />
     </Suspense>
   );
 }
